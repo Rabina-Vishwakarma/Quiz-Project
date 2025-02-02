@@ -2,7 +2,7 @@
 
 An engaging web-based quiz application with real-time feedback, progress tracking, and a sleek user interface.
 
-![Quiz App Screenshot](screenshots/quiz-page.png)
+![Quiz App Screenshot](screnshots/quiz-page.jpeg)
 
 ## 🎥 Demo
 
@@ -22,7 +22,7 @@ An engaging web-based quiz application with real-time feedback, progress trackin
 
 ## 🚀 Live Demo
 
-Try the quiz here: [QuizWeb.com]((https://quiz-project-ecru-rho.vercel.app/))
+Try the quiz here:((https://quiz-project-ecru-rho.vercel.app/))
 
 ## 🛠️ Tech Stack
 
@@ -35,15 +35,15 @@ Try the quiz here: [QuizWeb.com]((https://quiz-project-ecru-rho.vercel.app/))
 ## 📸 Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home-screen.jpeg)
+![Home Screen](screnshots/home-screen.jpeg)
 *Initial quiz interface with start button*
 
 ### Question Interface
-![Question Interface](screenshots/quiz-page.jpeg)
+![Question Interface](screnshots/quiz-page.jpeg)
 *Question display with multiple choice options*
 
 ### Results Page
-![Results Page](screenshots/result-page.jpeg)
+![Results Page](screnshots/result-page.jpeg)
 *Final score display with retry option*
 
 ## 🏗️ Setup Instructions
