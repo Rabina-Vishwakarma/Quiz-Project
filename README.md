@@ -22,7 +22,7 @@ An engaging web-based quiz application with real-time feedback, progress trackin
 
 ## 🚀 Live Demo
 
-Try the quiz here: [QuizWeb.com](https://quizweb.com)
+Try the quiz here: [QuizWeb.com]((https://quiz-project-ecru-rho.vercel.app/))
 
 ## 🛠️ Tech Stack
 
