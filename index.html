@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizWeb.com - Landing Page</title>
+    <link rel="icon" href="img/quiz-title.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo">
+        <span>Q</span><span>u</span><span>i</span><span>z</span><span>W</span><span>e</span><span>b</span><span>.</span><span>com</span>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1 id="animated-text">Challenge Yourself with Fun & Engaging Quizzes!</h1>
+        <p>Improve your knowledge, earn points, and compete with friends.</p>
+        <input type="text" id="username" placeholder="Enter Your Name" />
+        <a href="Quiz.html" onclick="saveUsername()"><button id="startQuiz">Start Quiz</button></a>
+            </div>
+
+    <!-- Stats Section -->
+    <div class="stats">
+        <div class="stat">
+            <div class="stat-number" data-count="1000">0</div>
+            <div>Active Users 🧑‍🤝‍🧑</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number" data-count="500">0</div>
+            <div>Quizzes 📚</div>
+        </div>
+        <div class="stat">
+            <div class="stat-number" data-count="50">0</div>
+            <div>Categories 🔥</div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <div class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Adaptive Learning</h3>
+            <p>Questions adapt to your skill level</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">🏆</div>
+            <h3>Leaderboards</h3>
+            <p>Compete with users worldwide</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">📊</div>
+            <h3>Progress Tracking</h3>
+            <p>Monitor your improvement</p>
+        </div>
+    </div>
+
+    <!-- Leaderboard Section -->
+    <div class="leaderboard">
+        <h2>🔥 Top Players</h2>
+        <ul>
+            <li>🏆 Alex - 950 Points</li>
+            <li>🥈 Maria - 870 Points</li>
+            <li>🥉 John - 830 Points</li>
+        </ul>
+        <button class="leaderboard-btn">Join Leaderboard</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Science</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Mathematics</a></li>
+                    <li><a href="#">Literature</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us on social media for updates and new quizzes!</p>
+                <div class="social-icons">
+                    <a href="#"><span>🌐</span></a>
+                    <a href="#"><span>📱</span></a>
+                    <a href="#"><span>💌</span></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

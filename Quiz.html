@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizWeb.com</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/quiz-title.jpg">
+    <link rel="stylesheet" href="css/Quiz.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo">
+        <span>Q</span><span>u</span><span>i</span><span>z</span><span>W</span><span>e</span><span>b</span><span>.</span><span>com</span>
+    </div>
+
+    <div id="loading" style="text-align: center; font-size: 20px; color: white; display: none;">
+        <div class="loading-spinner">Loading...</div>
+    </div>
+    <div class="quiz-container">
+        <h1>Welcome, <span id="displayUsername">Player</span>!</h1>
+        <div class="quiz-header">
+            <h1 class="quiz-title">Knowledge Quiz</h1>
+            <div class="timer">Time: <span id="time">30</span>s</div>
+        </div>
+
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+        </div>
+
+        <div id="question-container" style="display: none;">
+                    Question <span id="question-number">1</span>: 
+
+            <h2 class="question" id="question">Question goes here</h2>
+            <div class="options-container" id="options">
+                <!-- Options will be inserted here -->
+            </div>
+            <button class="next-btn" id="next-btn">Next Question</button>
+        </div>
+
+        <div class="result-container" id="result">
+            <h2 class="quiz-title">Quiz Complete!</h2>
+            <p class="score-text">You scored <span id="score-result">0</span> out of <span id="total-score">0</span></p>
+            <button class="restart-btn" id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="js/quiz.js"></script>
+</body>
+</html>

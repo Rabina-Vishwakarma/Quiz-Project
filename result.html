@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/quiz-title.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.0"></script>
+  <link rel="stylesheet" href="css/result.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo">
+        <span>Q</span><span>u</span><span>i</span><span>z</span><span>W</span><span>e</span><span>b</span><span>.</span><span>com</span>
+    </div>
+    <div class="result-container">
+        <h1>Congratulations, <span id="displayUsername">Player</span>!</h1>
+        <h2>Quiz Complete!</h2>
+        <p class="topic-name" id="topic-name">Topic: General Knowledge</p>
+        <div class="score" id="score">0/0</div>
+        <p class="score-text" id="score-text">Better luck next time!</p>
+        <div class="level" id="level">Level: Beginner</div>
+
+        <div class="buttons">
+            <button class="btn" id="restart-btn">Restart</button>
+            <button class="btn" id="home-btn">Home</button>
+            <button class="btn" id="share-btn">📤 Share</button>
+            <button class="btn" id="dark-mode-toggle">🌙 Dark Mode</button>
+        </div>
+    </div>
+
+    <script src="js/result.js"></script>
+
+</body>
+</html>
